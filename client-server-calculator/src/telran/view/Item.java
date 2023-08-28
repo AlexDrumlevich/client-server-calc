@@ -21,7 +21,6 @@ static Item of(String name, Consumer<InputOutput> action, boolean isExit) {
 			return name;
 		}
 	};
-	
 }
 static Item of(String name, Consumer<InputOutput> action) {
 	return of(name, action, false);

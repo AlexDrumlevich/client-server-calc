@@ -26,7 +26,7 @@ public class TcpClient {
 						}
 					}),
 					Item.of("Help", io1 -> {
-						writer.println("help");
+						writer.println("heldp");
 						String response;
 						try {
 							response = reader.readLine();
